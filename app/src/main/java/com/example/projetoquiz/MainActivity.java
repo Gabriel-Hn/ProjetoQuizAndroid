@@ -54,4 +54,19 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
     }
+    private void carregarPerguntas(){
+        if(indicePergunta < perguntas.length){
+            //Pegar pergunta do vetor criado
+            txvPergunta.setText(perguntas[indicePergunta]);
+            //Esvaziar marcação da radio caso haja
+            rgb_principal.clearCheck();
+            //Deixar o botão responder habilitado
+            btnResponder.setEnabled(true);
+        } else{
+            //Finalizar quiz
+            txvPergunta.setText("Fim");
+            //Desabilitar o botão de resposta
+            btnResponder.setEnabled(false);
+        }
+    }
 }
