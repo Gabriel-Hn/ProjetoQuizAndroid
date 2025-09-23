@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/gradiente"
     tools:context=".MainActivity">
 
     <TextView
@@ -31,24 +32,29 @@
             android:id="@+id/rb_a"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/botao1"
+            android:paddingBottom="5px"
             android:text="@string/texto_alternativa_a" />
 
         <RadioButton
             android:id="@+id/rb_b"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/botao2"
             android:text="@string/texto_alternativa_b" />
 
         <RadioButton
             android:id="@+id/rb_c"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/botao3"
             android:text="@string/texto_alternativa_c" />
 
         <RadioButton
             android:id="@+id/rb_d"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/botao4"
             android:text="@string/texto_alternativa_d" />
 
     </RadioGroup>
@@ -60,6 +66,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
+        android:background="@color/purple"
         android:text="@string/texto_botao"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
