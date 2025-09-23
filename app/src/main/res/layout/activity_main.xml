@@ -23,6 +23,7 @@
         android:id="@+id/rgb_principal"
         android:layout_width="389dp"
         android:layout_height="208dp"
+        android:background="@drawable/botao1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -32,7 +33,6 @@
             android:id="@+id/rb_a"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/botao1"
             android:paddingBottom="5px"
             android:text="@string/texto_alternativa_a" />
 
@@ -40,21 +40,18 @@
             android:id="@+id/rb_b"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/botao2"
             android:text="@string/texto_alternativa_b" />
 
         <RadioButton
             android:id="@+id/rb_c"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/botao3"
             android:text="@string/texto_alternativa_c" />
 
         <RadioButton
             android:id="@+id/rb_d"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/botao4"
             android:text="@string/texto_alternativa_d" />
 
     </RadioGroup>
